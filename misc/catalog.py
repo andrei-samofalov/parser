@@ -5,11 +5,7 @@ from selenium.webdriver.common.by import By
 from loader import browser
 
 
-class Catalog:
-    pass
-
-
-class CatalogItem(Catalog):
+class CatalogItem:
     def __init__(self, url: str) -> None:
         self._url = url
         self.page_read = False
