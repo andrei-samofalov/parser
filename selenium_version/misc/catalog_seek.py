@@ -1,8 +1,8 @@
 import json
 import time
 
-from misc.catalog import CatalogItem
-from misc.url import CATALOG, URL
+from selenium_version.misc.catalog import CatalogItem
+from selenium_version.misc.url import CATALOG, URL
 
 
 def load(bro):

@@ -1,8 +1,6 @@
-import json
-
 from selenium.webdriver.common.by import By
 
-from loader import browser
+from selenium_version.loader import browser
 
 
 class CatalogItem:
